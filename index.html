@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <title>Reese Project</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="intro">
+            <h1>Reese's Game</h1>
+            <br>
+            <br>
+            <h2 id="clickhere">Click to start!</h2>
+        </div>
+        <div class="showGame">
+        <div id="question">
+
+        </div>
+        <main id="main"></main>
+        <div class="youWin"></div>
+        <score></score>
+        <br>
+        <br>
+        <br>
+        <div class="animation"></div>
+        <button id="toggle" class="btn btn-toggle">
+            <i class="fas fa-cog"></i>
+        </button>
+        <div id="playAgain"></div>
+        <div id="text-box" class="text-box">
+            <div id="close" class="close">X</div>
+            <h3>Choose Voice</h3>
+            <select id="voices"></select>
+            <textarea id="text" placeholder="Enter text to read..."></textarea>
+            <button class="btn" id="read">Read Text</button>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
